@@ -1,0 +1,12 @@
+/* 
+ * assets/ — Dossier réservé aux icônes et images du portfolio.
+ * 
+ * Ce dossier est actuellement vide car le site utilise des icônes SVG inline
+ * pour des performances optimales (pas de requêtes HTTP supplémentaires).
+ * 
+ * Ajoutez ici vos images si nécessaire :
+ * - photo de profil (photo.webp)
+ * - logos d'entreprises
+ * - captures de projets
+ * - favicon personnalisé (favicon.ico, favicon.svg)
+ */

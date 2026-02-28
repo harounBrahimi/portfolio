@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Haroun Brahimi</title>
+  <meta name="description" content="CV de Haroun Brahimi — Architecte logiciel spécialisé Angular, ASP.NET et SQL." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CV — Haroun Brahimi" />
+  <meta property="og:description" content="CV de Haroun Brahimi — Architecte logiciel & développeur fullstack Angular / ASP.NET / SQL." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip to content (a11y) -->
+  <a href="#cv-content" class="skip-link">Aller au contenu du CV</a>
+
+  <!-- ============================
+       NAVIGATION
+       ============================ -->
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Retour au portfolio">H<span>.</span>B</a>
+
+      <div class="nav-links" id="nav-links" role="menubar">
+        <a href="index.html" role="menuitem">Portfolio</a>
+        <a href="index.html#experience" role="menuitem">Expériences</a>
+        <a href="index.html#projects" role="menuitem">Projets</a>
+        <a href="index.html#contact" role="menuitem">Contact</a>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:0.5rem;">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Changer de thème" type="button"></button>
+        <button class="nav-burger" id="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false" type="button">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================
+       CV CONTENT
+       ============================ -->
+  <main class="cv-page" id="cv-content">
+    <div class="container">
+
+      <!-- Header / Print button -->
+      <div class="cv-header reveal">
+        <div class="cv-header-info">
+          <h1>Haroun Brahimi</h1>
+          <h2>Architecte logiciel &amp; Développeur d'applications</h2>
+          <p style="color:var(--text-secondary);font-size:var(--text-sm);max-width:500px;margin-top:var(--space-sm);">
+            Développeur fullstack spécialisé Angular / ASP.NET / SQL. Conception d'applications métiers robustes, maintenables et orientées impact.
+          </p>
+        </div>
+        <div class="cv-header-contact">
+          <a href="mailto:haroun.brahimi@outlook.com">haroun.brahimi@outlook.com</a>
+          <a href="https://www.linkedin.com/in/haroun-brahimi" target="_blank" rel="noopener noreferrer">linkedin.com/in/haroun-brahimi</a>
+          <a href="https://github.com/haroun-brahimi" target="_blank" rel="noopener noreferrer">github.com/haroun-brahimi</a>
+          <span>France</span>
+          <button class="btn btn-primary btn-print no-print" onclick="window.print()" style="margin-top:var(--space-sm);">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+            Imprimer / PDF
+          </button>
+        </div>
+      </div>
+
+      <!-- ============================
+           EXPÉRIENCES PROFESSIONNELLES
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Expériences professionnelles</h3>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Pacific Pêche — Architecte logiciel / Développeur d'application</span>
+            <span class="cv-entry-period">Mars 2024 — Présent</span>
+          </div>
+          <p class="cv-entry-subtitle">Application interne pour fiabiliser et piloter les flux inter-applicatifs</p>
+          <ul class="cv-entry-bullets">
+            <li>Conception de l'architecture d'une solution Angular + ASP.NET d'intégration de flux</li>
+            <li>Développement de mécanismes de synchronisation robustes entre applications métiers</li>
+            <li>Mise en place d'un monitoring des flux pour traçabilité et détection d'anomalies</li>
+            <li>Modélisation et optimisation des bases de données SQL Server</li>
+            <li>Garantie de maintenabilité et qualité du code sur l'ensemble de la stack</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-sm);">
+            <span class="tag" style="font-size:var(--text-xs);">Angular</span>
+            <span class="tag" style="font-size:var(--text-xs);">ASP.NET</span>
+            <span class="tag" style="font-size:var(--text-xs);">SQL Server</span>
+            <span class="tag" style="font-size:var(--text-xs);">TypeScript</span>
+            <span class="tag" style="font-size:var(--text-xs);">C#</span>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Alten — Consultant (Client : Agirc-Arrco)</span>
+            <span class="cv-entry-period">Sept 2023 — Fév 2024</span>
+          </div>
+          <p class="cv-entry-subtitle">Migration de base de données DB2 vers PostgreSQL</p>
+          <ul class="cv-entry-bullets">
+            <li>Analyse des schémas et dépendances (tables, vues, contraintes)</li>
+            <li>Adaptation des types, fonctions et requêtes SQL (spécificités DB2 → Postgres)</li>
+            <li>Préparation et exécution de scripts de migration</li>
+            <li>Validation de cohérence des données (contrôles, échantillonnage, rapprochement)</li>
+            <li>Support aux tests et corrections d'écarts</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-sm);">
+            <span class="tag" style="font-size:var(--text-xs);">DB2</span>
+            <span class="tag" style="font-size:var(--text-xs);">PostgreSQL</span>
+            <span class="tag" style="font-size:var(--text-xs);">SQL</span>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">dpliance — Développeur fullstack (Alternance)</span>
+            <span class="cv-entry-period">2021 — 2023 (2 ans)</span>
+          </div>
+          <p class="cv-entry-subtitle">Développement fullstack sur des applications métiers en alternance longue durée</p>
+          <ul class="cv-entry-bullets">
+            <li>Développement de features end-to-end (frontend Angular + backend NestJS)</li>
+            <li>Conception et intégration d'API REST avec base de données SQL</li>
+            <li>Travail en équipe avec revues de code et bonnes pratiques de développement</li>
+            <li>Participation à l'ensemble du cycle : spécifications, développement, tests, déploiement</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-sm);">
+            <span class="tag" style="font-size:var(--text-xs);">Angular</span>
+            <span class="tag" style="font-size:var(--text-xs);">NestJS</span>
+            <span class="tag" style="font-size:var(--text-xs);">SQL</span>
+            <span class="tag" style="font-size:var(--text-xs);">TypeScript</span>
+            <span class="tag" style="font-size:var(--text-xs);">Node.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================
+           FORMATION
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Formation</h3>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Epitech — Expert en Technologies de l'Information</span>
+            <span class="cv-entry-period">2018 — 2023</span>
+          </div>
+          <p class="cv-entry-subtitle">Formation par projets, pédagogie active. Spécialisation développement logiciel.</p>
+        </div>
+      </section>
+
+      <!-- ============================
+           COMPÉTENCES
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Compétences techniques</h3>
+        <div class="cv-skills-grid">
+          <div class="cv-skill-cat">
+            <strong>Frontend : </strong>
+            <span>Angular, TypeScript, HTML/CSS, RxJS, Material Design</span>
+          </div>
+          <div class="cv-skill-cat">
+            <strong>Backend : </strong>
+            <span>ASP.NET Core, C#, NestJS, Node.js, REST API</span>
+          </div>
+          <div class="cv-skill-cat">
+            <strong>BDD : </strong>
+            <span>SQL Server, PostgreSQL, DB2, Modélisation</span>
+          </div>
+          <div class="cv-skill-cat">
+            <strong>Outils : </strong>
+            <span>Git, Azure DevOps, VS Code, Postman, Docker</span>
+          </div>
+          <div class="cv-skill-cat">
+            <strong>Méthodes : </strong>
+            <span>Architecture logicielle, Clean Code, Agile/Scrum, CI/CD</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================
+           PROJETS PRO
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Projets professionnels</h3>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Gestion des flux inter-applicatifs</span>
+            <span class="cv-entry-period">Pacific Pêche — Interne</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Centralisation et fiabilisation des échanges de données entre applications du SI</li>
+            <li>Architecture Angular + ASP.NET Core + SQL Server</li>
+            <li>Monitoring des flux et interface d'administration pour les équipes métier</li>
+          </ul>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Modernisation d'applications métiers</span>
+            <span class="cv-entry-period">Projets internes</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Refonte d'applications avec architecture modulaire Angular + API .NET</li>
+            <li>API robustes avec validation, gestion d'erreurs et documentation</li>
+            <li>Interfaces utilisateur intuitives et réactives</li>
+          </ul>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Migration DB2 → PostgreSQL</span>
+            <span class="cv-entry-period">Agirc-Arrco (via Alten) — Client</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Analyse des schémas, dépendances et contraintes, adaptation des types et requêtes</li>
+            <li>Scripts de migration + validation de cohérence par échantillonnage</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============================
+           PROJETS PERSO
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Projets personnels</h3>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Moteur 3D en Rust</span>
+            <span class="cv-entry-period">Perso</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Pipeline de rendu complet : parsing de modèles, transformations, affichage</li>
+            <li>Architecture modulaire, optimisations de performance et gestion mémoire bas-niveau</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-xs);">
+            <span class="tag" style="font-size:var(--text-xs);">Rust</span>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Apprentissage par renforcement</span>
+            <span class="cv-entry-period">Perso</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Conception d'environnements d'entraînement, boucle RL avec reward shaping</li>
+            <li>Évaluation et comparaison des politiques apprises</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-xs);">
+            <span class="tag" style="font-size:var(--text-xs);">Python</span>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">DB Browser (SaaS)</span>
+            <span class="cv-entry-period">Perso</span>
+          </div>
+          <ul class="cv-entry-bullets">
+            <li>Solution SaaS pour explorer des bases de données, requêter et exporter (CSV/JSON)</li>
+            <li>Connecteurs multi-bases, gestion des accès et sécurité des connexions</li>
+          </ul>
+          <div class="timeline-stack" style="margin-top:var(--space-xs);">
+            <span class="tag" style="font-size:var(--text-xs);">Fullstack</span>
+            <span class="tag" style="font-size:var(--text-xs);">SQL</span>
+            <span class="tag" style="font-size:var(--text-xs);">API</span>
+            <span class="tag" style="font-size:var(--text-xs);">UI</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================
+           LANGUES
+           ============================ -->
+      <section class="cv-section reveal">
+        <h3 class="cv-section-title">Langues</h3>
+        <div class="cv-skills-grid">
+          <div class="cv-skill-cat">
+            <strong>Français : </strong><span>Langue maternelle</span>
+          </div>
+          <div class="cv-skill-cat">
+            <strong>Anglais : </strong><span>Professionnel (lecture technique, documentation, échanges)</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="footer no-print">
+    <div class="container">
+      <p>© 2026 Haroun Brahimi — <a href="index.html">Retour au portfolio</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="profile.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
